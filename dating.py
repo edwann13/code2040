@@ -153,7 +153,7 @@ def trickleU(SS, MM, HH, dd, mm, y, time):
 		year = mm // 12
 		mm = mm % 12
 		y = y + year
-
+	return (SS, MM, HH, dd, mm, y)
 
 
 def modDate(datetime, SS, MM, HH, dd, mm, y):
